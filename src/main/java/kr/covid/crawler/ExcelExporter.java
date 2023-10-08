@@ -42,16 +42,12 @@ public class ExcelExporter {
             }
 
             //엑셀 파일 저장
-            String filename = "temp.xlsx";
-            FileOutputStream outputStream = new FileOutputStream(new File(filename));
+            FileOutputStream outputStream = new FileOutputStream(new File(fileName));
             workbook.write(outputStream);
             workbook.close();
-            System.out.println("엑셀 파일이 저장되었습니다 : " + filename);
         }catch (IOException e){
             System.out.println("엑셀 파일 저장 중 오류가 발생했습니다");
             e.printStackTrace();
         }
-
-
     }
 }
