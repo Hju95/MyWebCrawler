@@ -1,3 +1,5 @@
+package kr.covid.crawler;
+
 public class CovidScraper {
-    int a;
+
 }
