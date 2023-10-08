@@ -92,7 +92,7 @@ table.addCell(new Cell().add(new Paragraph(String.valueOf(covidPrevention.getFir
 ...
 ```
 
-3.PDF 파일 저장
+3. PDF 파일 저장
 ```
 document.add(table);
 document.close();
