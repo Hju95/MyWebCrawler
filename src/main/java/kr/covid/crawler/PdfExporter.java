@@ -13,12 +13,10 @@ import com.itextpdf.layout.property.TextAlignment;
 import com.itextpdf.layout.element.Paragraph;
 import com.itextpdf.layout.property.UnitValue;
 
-import javax.swing.text.StyleConstants;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.List;
 
-import static org.apache.poi.ss.util.CellUtil.createCell;
 
 public class PdfExporter {
     public static void fileToPdf(String date, List<CovidPrevention> covidPreventionList, String fileName) throws FileNotFoundException {
