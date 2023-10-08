@@ -4,10 +4,17 @@
 
 [https://ncov.kdca.go.kr/](https://ncov.kdca.go.kr/sido.do?brdId=&brdGubun=&dataGubun=&ncvContSeq=&contSeq=&board_id=&gubun=)
 
+![covid_prevention](https://github.com/Hju95/MyWebCrawler/assets/59231743/a7b71ab3-9469-412c-b060-5e96e4338f14)
 
+- 이미지의 데이터를 크롤링
 
+![excel_covid](https://github.com/Hju95/MyWebCrawler/assets/59231743/437fed5c-c92c-4ebb-8b84-0b78f0adca1f)
 
+- 엑셀 파일로 저장
 
+![pdf_covid](https://github.com/Hju95/MyWebCrawler/assets/59231743/0d2597f0-ac58-44c6-98a1-c6301d769754)
+
+- PDF 파일로 저장
 
 ### 환경
 IDE : IntelliJ IDEA 2023.2.2 (Community Edition)
