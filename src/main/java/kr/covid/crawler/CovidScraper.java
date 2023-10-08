@@ -48,6 +48,10 @@ public class CovidScraper {
             ExcelExporter.fileToExcel(date, covidPreventionList, excelName);
             System.out.println("엑셀 파일 저장함 : " + excelName);
 
+            //PDF 파일 저장
+            String pdfName = "covid_prevention_" + date.replace(".","_") + ".pdf";
+            PdfExporter.fileToPdf(date, covidPreventionList, pdfName);
+            System.out.println("PDF 파일 저장함 : " + pdfName);
 
         }catch (IOException e) {
             e.printStackTrace();
